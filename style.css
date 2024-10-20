@@ -1,0 +1,153 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #e6f0ff; /* Light blue background */
+  color: #333;
+}
+
+header {
+  background-color: #00509e; /* Dark blue header */
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #00509e;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  background-color: #003b6f; /* Darker blue on hover */
+}
+
+/* Clear floats */
+.clear {
+  clear: both;
+}
+
+.content {
+  padding: 20px;
+  margin: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+  background-color: #00509e;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  position: relative;
+  width: 100%;
+  bottom: 0;
+}
+
+/* Search Bar */
+.search-bar {
+  margin: 20px 0;
+}
+
+.search-bar input[type="text"] {
+  padding: 10px;
+  font-size: 16px;
+  width: 80%;
+  border: 2px solid #00509e;
+  border-radius: 5px;
+}
+
+.search-bar input[type="submit"] {
+  padding: 10px;
+  background-color: #00509e;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.search-bar input[type="submit"]:hover {
+  background-color: #003b6f;
+}
+
+/* Donation Button */
+.donate-btn {
+  padding: 15px 30px;
+  background-color: #7c91fc; 
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 5px;
+  display: inline-block;
+  margin: 20px 0;
+}
+
+.donate-btn:hover {
+  background-color: #cc7a00;
+}
+
+/* Sections */
+.section-title {
+  color: #00509e;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* what we do not do pages styling*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #00509e;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 1.5em;
+}
+
+.container {
+  margin: 20px auto;
+  max-width: 800px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.content {
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
